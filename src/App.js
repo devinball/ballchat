@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         Ball Chat
       </header>
-      <RTCMesh URL="wss://" />
+      <RTCMesh URL="wss://ballchat.herokuapp.com" />
     </div>
   );
 }
