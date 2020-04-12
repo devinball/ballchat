@@ -4,14 +4,13 @@ const https = require('http');
 const SignalServer = require('react-rtc-real/server/SignalServer.js');
 
 const app = express();
-const PORT = 3000;
 
 // Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static(path.join(__dirname, '/build')));
 
 // For any request that doesn't match send back index.html file.
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname+'/client/build/index.html'));
+  res.sendFile(path.join(__dirname+'/build/index.html'));
 });
 
 // Adding in a express server to HTTPS to allow HTTPS
