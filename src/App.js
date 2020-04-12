@@ -8,8 +8,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <RTCMesh URL="wss://" />
+        Ball Chat
       </header>
+      <RTCMesh URL="wss://" />
     </div>
   );
 }

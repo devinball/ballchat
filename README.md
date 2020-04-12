@@ -1,3 +1,7 @@
+
+Playing with Web RTC example from:
+https://medium.com/@dianewudw/build-your-own-video-chat-app-with-react-and-webrtc-bd4dd0c5c0ea
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
