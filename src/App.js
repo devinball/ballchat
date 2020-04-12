@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import RTCMesh from 'react-rtc-real';
 import './App.css';
+
+require('react-rtc-real/assets/index.css');
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
+        <RTCMesh URL="wss://" />
       </header>
     </div>
   );
