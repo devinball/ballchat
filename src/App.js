@@ -7,9 +7,9 @@ require('react-rtc-real/assets/index.css');
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <h1>
         Ball Chat
-      </header>
+      </h1>
       <RTCMesh URL="wss://ballchat.herokuapp.com" />
     </div>
   );
